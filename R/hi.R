@@ -13,10 +13,26 @@
 #'
 #'@export
 
-hi <- function(who){
-  paste("Hello", who, ", your name is", how(who), "!")
+
+
+hi <- function(who, how=c("shout", "whisper")){
+  stopifnot(
+    is.character(who),
+    length(who)==1,
+    !is.na(who)
+  )
+  how = match.arg(how)
+  fun = switch (how,
+    shout = shout,
+    whisper = whisper
+  )
+  paste("Hello, ", who, "Your name is", fun(who), "!")
 }
 
-how <- function(who){
+shout <- function(who){
   toupper(who)
+}
+
+whisper <- function(who){
+  tolower(who)
 }

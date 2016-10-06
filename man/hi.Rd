@@ -4,7 +4,7 @@
 \alias{hi}
 \title{Help statrt conversions}
 \usage{
-hi(who)
+hi(who, how = c("shout", "whisper"))
 }
 \arguments{
 \item{who}{character(1) The name of the person to greet at}
