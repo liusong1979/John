@@ -8,6 +8,8 @@ hi(who)
 }
 \arguments{
 \item{who}{character(1) The name of the person to greet at}
+
+\item{how}{character(1) The name of the person to convert}
 }
 \value{
 a line of the text to be used for starting the conversion
@@ -17,6 +19,6 @@ This function is for greeting in different ways
 }
 \examples{
    hi("Song Liu")
- 
+
 }
 
