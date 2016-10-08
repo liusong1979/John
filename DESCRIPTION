@@ -1,10 +1,10 @@
 Package: John
 Title: Exercise what has been taught in day 1 of workshop
-Version: 0.0.1
-Authors@R: person("Song", "Liu", 
-  email = "song.liu@roswellpark.org", 
+Version: 0.1.1
+Authors@R: person("Song", "Liu",
+  email = "song.liu@roswellpark.org",
   role = c("aut", "cre"))
-Description: Greeting in diffeent ways.
+Description: 1) Greeting in diffeent ways; 2) data analysis in different ways
 Depends:
     R (>= 3.3.1)
 License: Artistic-2.0
