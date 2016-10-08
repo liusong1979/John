@@ -36,6 +36,9 @@ input_classic <- function(pdata_file, exprs_file){
 # hist(res1, breaks = 100)
 # plot(density(res1))
 
+# library(magrittr)
+# all[, -(1:22)] %>% colMeans() %>% density() %>% plot()
+
 # dir()
 #
 # pdata_file=file.choose()
