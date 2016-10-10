@@ -6,7 +6,7 @@ Authors@R: person("Song", "Liu",
   role = c("aut", "cre"))
 Description: 1) Greeting in diffeent ways; 2) data analysis in different ways
 Depends:
-    R (>= 3.3.1)
+    R (>= 3.3.1), reshape2, dplyr, magrittr
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
